@@ -1,0 +1,515 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  
+  padding: 20px;
+}
+
+.con-form {
+  max-width: 600px;
+}
+
+
+
+
+
+/*location page map styles*/
+.map-container-6{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+
+  .map-container-6 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+.pt-4, .py-4 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.bText {
+  color: #7ECFC9;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list-group-item+.list-group-itemN {
+  border-top-width: 0.1px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.list-group-item+.list-group-item {
+  border-top-width: 0.1px;
+  border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    
+font-family: "Open Sans", sans-serif;
+}
+
+
+
+.loc {
+  color: #6E94A5;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*404 page*/
+.error-title {
+ text-shadow: none;
+  margin: auto;
+  display: flex;
+    transform: translate(2%,0);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    color: #6E94A5;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.errorWords {
+  text-shadow: none;
+  margin: auto;
+  display: flex;
+    transform: translate(2%,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+font-family: "Open Sans", sans-serif;
+    
+}
+
+.sad {
+  height: 400px;
+  width: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+
+
+
+
+
+.section1{
+  margin-top:-15%;
+  padding: 10%;
+  width: fit-content;
+}
+.section1 h4{
+  color: #6E94A5;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.section1 .row
+{
+  margin-top: 10%;
+}
+.how-img 
+{
+  text-align: center;
+}
+
+
+.text-mission {
+  margin: auto;
+  display: initial;
+  text-shadow: none;
+}
+
+.text-values {
+  margin: auto;
+  display: initial;
+  text-shadow: none;
+  border-radius: 50%;
+  
+}
+
+
+
+
+
+
+
+
+/*About us card*/
+.bcontent {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+
+.about-img {
+
+  width: inherit;
+  
+}
+
+.title {
+  color: white;
+  text-shadow: 2px 1px #5C74A9;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-words {
+  
+font-family: "Open Sans", sans-serif;
+display: block;
+margin-top: 0px;
+margin-bottom: 1rem;
+text-shadow: none;
+transform: translate(0,0);
+color: white;
+}
+
+.no-gutters>.col, .no-gutters>[class*=col-]{
+  background: #ACC7D3;
+}
+
+
+
+
+
+/*Footer Styles*/
+
+footer {
+  
+  bottom: 0;
+  width: 100%;
+  background: white;
+  color: white;
+  
+}
+
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+  background: #80B8C2;
+ 
+  text-align: center;
+}
+
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoInstagram:hover {
+    background-color: #4078c0;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoInstagram:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+.nav flex-column {
+    color: white;
+}
+
+a.nav-item a.nav-link:active {
+   color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Jumbotron Styles*/
+.jumbotron {
+    background: url(img/dog2.jpg) top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: cadetblue;
+    text-align: right;
+    height: 610px;
+    color: white;
+}
+
+h1, p {
+    display: flex;
+    /*transform: translate(-50%,0);*/
+    z-index: -100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px black;
+    margin: auto;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  
+font-family: "Open Sans", sans-serif;
+}
+
+/*button on jumbotron*/
+ .btn-primary:hover {
+  background-color: #7989AB;
+  border-color: #7989AB;
+  color: white;
+}
+
+/*Boarding, Grooming, Training Card Styles*/
+p.card-text {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-shadow: none;
+    transform: translate(0,0);
+    
+font-family: "Open Sans", sans-serif;
+}
+
+.btn {
+    background-color: #5C74A9;
+    border-color: #5C74A9;
+    color: white;
+    
+font-family: "Open Sans", sans-serif;
+}
+
+.btn:hover{
+  background-color: #7989AB;
+  border-color: #7989AB;
+  color: white;
+}
+
+p.text-center {
+    transform: translate(0,0);
+    
+font-family: "Open Sans", sans-serif;
+}
+
+.align-items-center {
+    align-items: center!important;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-title {
+  color: #6E94A5;
+}
+
+
+
+/*hours*/
+.bg{
+  /*background: #80B8C2;*/
+  background-image: url(img/hourdog.jpg);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-repeat: no-repeat;
+  }
+  .hours {
+  background: #222; 
+  padding: 40px 14px;
+  margin-top: -15px;
+  position: relative;
+  width: 300px;
+  }
+  .hours:before{
+  content: '';
+  width: 23px;
+  height: 23px;
+  background: #111;
+  position: absolute;
+  top: 5px;
+  left: -12px;
+  transform: rotate(-45deg);
+  z-index: -1;
+  }
+  .hours .title {
+  font-size: 20px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  padding-left: 5px;
+  border-left: 4px solid #7ECFC9; 
+  
+font-family: "Open Sans", sans-serif;
+  }
+  .hours li {
+  color: white;
+  line-height: 30px;
+  border-bottom: 1px solid #333; 
+  
+font-family: "Open Sans", sans-serif;
+  }
+  .hours li:last-child {
+  border-bottom: none; 
+  }
+  .hours .opening-hours li.today {
+  color: #ffac0c; 
+  }
+
+
+
+  /*html and body overflow fix*/
+  html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
